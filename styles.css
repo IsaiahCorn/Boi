@@ -1,146 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-
-html {
-  width: 100%;
-  height: 100%;
-
-  user-select: none;
-
-  body {
-    width: 100%;
-    height: 100%;
-
-    perspective: 567px;
-
-    margin: 0;
-    padding: 0;
-
-    overflow: hidden;
-
-    background: #000;
-
-    h1 {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      z-index: 1;
-
-      transform: translate3d(-50%,0,-123px) rotateX(85deg);
-
-      margin: 0;
-
-      font-family: 'Roboto Slab', serif;
-      font-size: 123px;
-      font-weight: 400;
-      line-height: 1;
-      text-align: center;
-
-      color: #fff;
-
-      pointer-events: none;
-
-      transition: color 1s .5s;
-    }
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-    }
-  }
-
-  ::selection {
-    background: #ff0;
-    color: #000;
-  }
+ .box1 {
+  min-height: 40vh;
+  width: 28%;
+  margin: auto;
+  display: inline-table;
+  box-shadow: 10px 10px 5px #474546;
 }
 
-.stage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
+.box2 {
+  min-height: 40vh;
+  width: 53%;
+  margin: auto;
+  display: inline-table;
+  box-shadow: 10px 10px 5px #474546;
+}
 
-  transform: rotateY(0deg);
-  transform-style: preserve-3d;
+.box3 {
+  min-height: 40vh;
+  width: 18%;
+  margin: auto;
+  display: inline-table;
+  box-shadow: 10px 10px 5px #474546;
+}
 
-  width: 100%;
-  height: 100%;
+.box4 {
+  min-height: 52vh;
+  width: 46%;
+  margin: auto;
+  display: inline-table;
+  box-shadow: 10px 10px 5px #474546;
+}
 
-  > ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.box5 {
+  min-height: 52vh;
+  width: 53%;
+  margin: auto;
+  display: inline-table;
+  box-shadow: 10px 10px 5px #474546;
+}
 
-    transform: translate3d(-50%,-50%,0);
-    transform-style: preserve-3d;
+.white {
+	  background-color: #fff;
+	  min-height:150px;
+}
 
-    width: 640px;
-    height: 360px;
+.dark_blue {
+  background-color: #FEF143;
+}
 
-    li {
-      position: absolute;
+.light_blue {
+  background-color: #ED5879;
+}
 
-      transform-style: preserve-3d;
-      backface-visibility: hidden;
+.green {
+  background-color: #FB5734;
+}
 
-      width: 100%;
-      height: 100%;
+.turk {
+  background-color: #2CA389;
+}
 
-      background: #fff;
-
-      cursor: pointer;
-
-      transition: background .5s;
-
-      &:before {
-        content: '';
-
-        position: absolute;
-        top: 30px;
-        left: 30px;
-
-        width: 580px;
-        height: 300px;
-
-        background-image: url('http://ultraimg.com/images/1ohuKSu.jpg');
-        background-size: cover;
-      }
-
-      &:hover {
-        background: #ff0;
-      }
-
-      &.featured {
-        cursor: default;
-      }				
-    }
-  }
-
-  &.show {
-
-    + h1 {
-      color: #ff0;
-    }
-
-    > ul li {
-      cursor: default;
-      pointer-events: none;
-    }
-
-    .featured {
-      background: #ff0;
-    }
-
-    &.hide {
-
-      + h1 {
-        color: #fff;
-      }
-
-      .featured {
-        background: #fff;
-      }
-    }
-  }
+.purp {
+  background-color: #F351FF;
 }
