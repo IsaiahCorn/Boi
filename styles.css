@@ -1,64 +1,43 @@
- .box1 {
-  min-height: 40vh;
-  width: 28%;
-  margin: auto;
-  display: inline-table;
-  box-shadow: 10px 10px 5px #474546;
+box {
+  min-height: 30vh;
+  width: 60vh;
 }
 
 .box2 {
-  min-height: 40vh;
-  width: 53%;
-  margin: auto;
-  display: inline-table;
-  box-shadow: 10px 10px 5px #474546;
+   min-height: 90vh;
+  width: 60vh;
+  display: inline-block;
 }
 
 .box3 {
-  min-height: 40vh;
-  width: 18%;
-  margin: auto;
+  min-height: 90vh;
+  width: 50vh;
   display: inline-table;
-  box-shadow: 10px 10px 5px #474546;
 }
 
-.box4 {
-  min-height: 52vh;
-  width: 46%;
-  margin: auto;
+box4 {
+  min-height: 90vh;
+  width: 60vh;
   display: inline-table;
-  box-shadow: 10px 10px 5px #474546;
-}
-
-.box5 {
-  min-height: 52vh;
-  width: 53%;
-  margin: auto;
-  display: inline-table;
-  box-shadow: 10px 10px 5px #474546;
-}
-
-.white {
-	  background-color: #fff;
-	  min-height:150px;
 }
 
 .dark_blue {
-  background-color: #FEF143;
+  background-color: #035959;
 }
 
 .light_blue {
-  background-color: #ED5879;
+  background-color: #0B8D80;
+}
+
+.grey {
+  background-color: #212629;
+}
+
+.brown {
+  background-color: #210202;
 }
 
 .green {
-  background-color: #FB5734;
+  background-color: #005921;
 }
 
-.turk {
-  background-color: #2CA389;
-}
-
-.purp {
-  background-color: #F351FF;
-}
