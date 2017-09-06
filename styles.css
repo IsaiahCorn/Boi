@@ -1,43 +1,64 @@
-box {
-  min-height: 30vh;
-  width: 60vh;
+ body {
+  width: 95%;
+	height: 95%;
+	background-color: grey;
 }
 
-.box2 {
-   min-height: 90vh;
-  width: 60vh;
-  display: inline-block;
+.oneblock {
+ background-color: #d39b31; 
+ width: 50%;
+ min-height: 30%;
+ display: inline-block;
+ font-family: Harrow, Impact;
+ font-size: 30px;
+ color:black;
 }
 
-.box3 {
-  min-height: 90vh;
-  width: 50vh;
-  display: inline-table;
+.twoblock {
+ background-color: #96782a; 
+ width: 30%;
+ min-height: 30%;
+ display: inline-block;
+ font-family: Harrow, Impact;
+ font-size: 30px;
+ color:black;
 }
 
-box4 {
-  min-height: 90vh;
-  width: 60vh;
-  display: inline-table;
+.threeblock {
+ background-color: #642a0b ; 
+ width: 18.8%;
+ min-height: 30%;
+ display: inline-block;
+ font-family: Harrow, Impact;
+ font-size: 30px;
+ color:white;
 }
 
-.dark_blue {
-  background-color: #d39b31;
+.fourblock {
+ background-color: #000000; 
+ width: 50%;
+ height: 70%;
+ display: inline-block;
+ font-family: Harrow, Impact;
+ font-size: 30px;
 }
 
-.light_blue {
-  background-color: #96782a;
+.fiveblock {
+ background-color: #ffffff; 
+ width: 49%;
+ height: 70%;
+ display: inline-block;
+ font-family: Harrow, Impact;
+ font-size: 30px;
+ color: black;
 }
 
-.grey {
-  background-color: #642a0b;
+
+p {
+ padding-top: 80px;
+    color: black;
 }
 
-.brown {
-  background-color: #000000;
+.bottom {
+  padding-top: 250px;
 }
-
-.green {
-  background-color: #ffffff;
-}
-
