@@ -1,64 +1,49 @@
- body {
-  width: 90%;
-	height: 90%;
-	background-color: grey;
+.h1 {
+	visibility: hidden;
 }
 
-.oneblock {
- background-color: #d39b31; 
- width: 50%;
- min-height: 30%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:black;
+@media screen and (min-width: 1081px) {
+    img {
+        content:url(https://user-images.githubusercontent.com/25018733/30504518-1316b362-9a24-11e7-87bf-754c73637cbd.png);
+    }
+	body {
+	    background-color: black;
+	}
 }
 
-.twoblock {
- background-color: #96782a; 
- width: 30%;
- min-height: 30%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:black;
+@media screen and (max-width: 1080px) {
+  img {
+      content:url(https://user-images.githubusercontent.com/25018733/30504535-303c3250-9a24-11e7-8850-e8e8c7a7e2f5.png);
+  }
+	body {
+	    background-image: url("https://media.tenor.com/images/96f7050202b6a25d24d95f0202d54ffd/tenor.gif");
+	}
 }
 
-.threeblock {
- background-color: #642a0b ; 
- width: 18.8%;
- min-height: 30%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:white;
+@media screen and (max-width: 820px) {
+   img {
+      content:url(https://user-images.githubusercontent.com/25018733/30504540-3acea25c-9a24-11e7-9150-ebd00f2c278f.png);
+   }
+	 body {
+	    background-image: url("https://media.tenor.com/images/17717449d377f821b16ea8522dae7d6c/tenor.gif");
+	}
 }
 
-.fourblock {
- background-color: #000000; 
- width: 50%;
- height: 70%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
+@media screen and (max-width: 600px) {
+  img {
+      content:url(https://user-images.githubusercontent.com/25018733/30504557-62e66108-9a24-11e7-8e03-b914dd1df358.gif);
+  }
 }
 
-.fiveblock {
- background-color: #ffffff; 
- width: 49%;
- height: 70%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color: black;
-}
-
-
-p {
- padding-top: 80px;
-    color: black;
-}
-
-.bottom {
-  padding-top: 250px;
+@media screen and (max-width: 600px) {
+	
+	.h1 {
+	visibility: visible;
+	}
+  .hidden {
+        content:url(https://user-images.githubusercontent.com/25018733/30504540-3acea25c-9a24-11e7-9150-ebd00f2c278f.png);
+  }
+	body {
+	    background-image: url("https://media.tenor.com/images/5c56f0e022cbd600cd4dbb2f7faab029/tenor.gif");
+	}
 }
